@@ -155,7 +155,7 @@ private:
         return mov;
     }
 
-    int buscarAnchura(int& filAhora, int& colAhora) {
+    int buscarAnchura(int filAhora, int colAhora) {
         // Número de movimientos
         int numMov = 0;
 
