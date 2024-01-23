@@ -143,6 +143,10 @@ private:
                     std::cout << "(" << anterior.first << ", " << anterior.second << ")" << endl;
                     impreso = true;
                 }
+                else {
+                    cout << "Error. Pila vacía";
+                    break;
+                }
             }
 
             // Si no se imprimió en el if de arriba, se imprime el nodo que será uno nuevo
